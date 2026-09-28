@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Nice to meet you!</h1>
+
+            <img src="../assets/cat.gif" alt="mascot" class="header-mascot">
+        </div>
+    </header>
+
+    <nav>
+        <button id="menu-toggle-btn" class="retro-menu-btn">
+            Where do you wanna go? <span class="arrow-icon">↗</span>
+        </button>
+
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="nav-on"><a href="../profile/index.html">Profile</a></li>
+            <li><a href="../hometown/index.html">Hometown</a></li>
+            <li><a href="../food/index.html">Local Food</a></li>
+            <li><a href="../tourist/index.html">Tourist Places</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="window-box">
+            <div class="window-bar">
+            <span class="window-title">about_me.txt</span>
+                <div class="window-controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+
+            <div class="profile-wrapper">
+                <div class="profile-image">
+                    <div class="profile-avatar">
+                            <img src="../assets/profile.jpg" alt="Photo of Arsya Argananta" width="200">
+                    </div>
+
+                    <div class="quote-box">
+                        <p class="quote-text">"A candle loses nothing by lighting another."</p>
+                    </div>
+                </div>
+
+                <article class="profile-text">    
+                    <p>Hi! I'm <b>Arsya Argananta</b>, and you can call me <b>Arga</b>. I grew up in Malang and currently pursuing Informatics Engineering at Institut Teknologi Sepuluh Nopember, Surabaya. Since I was a kid, I've always loved mathematics and enjoyed solving problems. Even though I didn't start with extensive tech knowledge, I chose Informatics because technology is always evolving, especially for the future, and that is why I am determined to master it.</p>
+                    <p>Over the past 18 months of studying informatics, I've gained valuable hands-on experience. I've learned to code in C and C++, work with PostgreSQL, operate Linux systems, and much more.</p>
+                    </article>
+                </div>
+        </article>
+
+        <section>
+            <h3>Skills, Hobbies, & Passions</h3>
+
+            <article class="sub-window">
+                <div class="sub-window-bar">
+                    <span class="sub-window-title">skills_and_tools.txt</span>
+                    <span class="sub-window-close">[x]</span>
+                </div>
+
+                <div class="sub-window-content">
+                    <h4>Tools & Technologies</h4>
+                    <p>Some languages, databases, and tools that I have been working with during my studies:</p>
+                    <ul>
+                        <li><b>Programming Languages</b>: C, C++</li>
+                        <li><b>Database & OS</b>: PostgreSQL, Linux Ubuntu (Bash/Terminal)</li>
+                        <li><b>Competitive Programming</b>: <a href="https://codeforces.com/profile/arsyaarnt" target="_blank">Codeforces</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="sub-window">
+                <div class="sub-window-bar">
+                    <span class="sub-window-title">art_gallery.png</span>
+                    <span class="sub-window-close">[x]</span>
+                </div>
+
+                <div class="sub-window-content">
+                    <h4>Drawing</h4>
+                    <p>I really enjoy drawing, mostly traditional pencil-on-paper sketches since digital art is quite challenging for me (though I'm still learning!).</p>
+                    <p>Here are some of my favourite drawings: </p>
+                    <div class="drawing-gallery">
+                        <div class="gallery-item"><img src="../assets/drawing1.jpg" alt="First Drawing" width="150"></div>
+                        <div class="gallery-item"><img src="../assets/drawing6.jpg" alt="Second Drawing" width="150"></div>
+                        <div class="gallery-item"><img src="../assets/drawing3.jpg" alt="Third Drawing" width="150"></div>
+                        <div class="gallery-item"><img src="../assets/drawing4.jpg" alt="Fourth Drawing" width="150"></div>
+                        <div class="gallery-item"><img src="../assets/drawing2.jpg" alt="Fifth Drawing" width="150"></div>
+                        <div class="gallery-item"><img src="../assets/drawing5.jpg" alt="Sixth Drawing" width="150"></div>
+                    </div>
+
+                    <p><small>You can see more at: <a href="https://www.instagram.com/arschoo/">@arschoo</a></small></p>
+                </div>
+            </article>
+
+            <article class="sub-window">
+                <div class="sub-window-bar">
+                    <span class="sub-window-title">media_and_hobbies.txt</span>
+                    <span class="sub-window-close">[x]</span>
+                </div>
+                
+                <div class="sub-window-content">
+                    <h4>Gaming & Music</h4>
+                    <p>I really love playing games and listening to music. Some games that I love to play are <b>Arknights: Enfield</b>, <b>eFootball</b>, <b>Geometry Dash</b>, and many more. I also have a few favorite artists such as <b>Aimer</b>, <b>Yorushika</b>, <b>SawanoHiroyuki</b>, etc.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div class="ocean-container">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use href="#gentle-wave" x="48" y="0" fill="rgba(147, 197, 253, 0.5)" />
+            <use href="#gentle-wave" x="48" y="3" fill="rgba(147, 197, 253, 0.3)" />
+            <use href="#gentle-wave" x="48" y="5" fill="rgba(147, 197, 253, 0.8)" />
+            <use href="#gentle-wave" x="48" y="7" fill="#93c5fd" />
+        </g>
+    </svg>
+    <div class="ocean-water-body"></div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <span>&copy; 2026 Arsya Argananta</span>
+            </div>
+
+            <div class="social-links">
+            <a href="https://instagram.com/arsyaarnt" target="_blank" rel="noopener noreferrer" title="Instagram">
+                <img src="../assets/icon_ig.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/arsyaarnt" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <img src="../assets/icon_github.png" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com/in/arsya-argananta" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <img src="../assets/icon_linkedin.png" alt="LinkedIn">
+            </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
