@@ -1,10 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const is_subfolder = document.querySelector('script[src^="../"]');
-    const base_path = is_subfolder ? '../assets/' : 'assets/';
-
     const mascot = document.querySelector('.header-mascot');
-    const meow_sound = new Audio(base_path + 'cat_sound.mp3');
+    const meow_sound = new Audio('/quiz1/cat_sound.mp3');
     if (mascot) {
         mascot.style.cursor = 'pointer';
         mascot.addEventListener('click', () => {
@@ -13,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
-    const click_sound = new Audio(base_path + 'click.mp3');
+    const click_sound = new Audio('/quiz1/click.mp3');
     const clickables = document.querySelectorAll('a, .gallery-item, .btn-mini, .sub-window-ask, .sub-window-exc');
     clickables.forEach(element => {
         element.addEventListener('click', (e) => {
@@ -32,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const x = document.querySelectorAll('.sub-window-close');
-    const x_sound = new Audio(base_path + 'error.mp3');
+    const x_sound = new Audio('/quiz1/error.mp3');
     x.forEach(btn => {
         btn.addEventListener('click', () => {
             x_sound.currentTime = 0;
